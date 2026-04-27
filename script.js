@@ -136,3 +136,33 @@
 // const copy2 = { ...copy.address};
 // copy2.city = 'Chittagong';
 // console.log(user.address.city);
+
+
+
+// 16
+// console.log(1);
+// Promise.resolve().then(() => console.log(2));
+// setTimeout(() => console.log(3), 0);
+// console.log(4);
+
+
+// 17
+// console.log('5' - 2);
+// console.log(Number("5") + 2);
+
+
+// 18
+// const user = undefined;
+// const { name  } = user || {}
+
+
+// 19
+// const nums = [1, 2, 3, 4];
+// const result = nums.filter(num => {
+//   return num > 2;
+// });
+// console.log(result);
+
+
+// 20
+// console.log(Object({}) === Object({}));
