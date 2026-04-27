@@ -94,3 +94,45 @@
 // }
 
 // console.log(greet(''));
+
+
+// 11
+// console.log(typeof(NaN) === typeof(NaN));
+// console.log(toString(NaN) === toString(NaN));
+
+// console.log(Number.isNaN(NaN));
+
+
+// 12
+// let i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i++
+// }
+
+
+// 13
+// const obj = {};
+// const key1 = { id: 1 };
+// const key2 = { id: 2 };
+// obj[`${key1.id}`] = 'Hello';
+// obj[`${key2.id}`] = 'World';
+// console.log(obj[`${key1.id}`]);
+
+// console.log(obj);
+
+
+// 14
+// function fetchData() {
+//   return Promise.resolve('Data');
+// }
+// fetchData().then(console.log);
+
+
+
+// 15
+// const user = { name: 'Alex', address: { city: 'Dhaka' } };
+// const copy = { ...user};
+// const copy2 = { ...copy.address};
+// copy2.city = 'Chittagong';
+// console.log(user.address.city);
